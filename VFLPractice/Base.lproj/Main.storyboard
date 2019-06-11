@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kfa-6X-kMV">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VFLPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6TP-RH-dDz" customClass="AnimatableView" customModule="IBAnimatable">
-                                <rect key="frame" x="10" y="184" width="300" height="200"/>
+                                <rect key="frame" x="30" y="306" width="315" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="8tK-wu-3JD"/>
-                                    <constraint firstAttribute="width" constant="300" id="zKb-ko-y8y"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -35,13 +34,16 @@
                                     <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
                                         <point key="value" x="0.0" y="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.92549019610000005" green="0.18039215689999999" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSw-Ad-lb2" customClass="AnimatableView" customModule="IBAnimatable">
-                                <rect key="frame" x="10" y="384" width="300" height="129"/>
+                                <rect key="frame" x="30" y="506" width="315" height="129"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZI-yY-Wtw" customClass="AnimatableView" customModule="IBAnimatable">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5" id="giv-C6-hpo"/>
@@ -88,10 +90,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6TP-RH-dDz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="1Rh-jy-l6Z"/>
                             <constraint firstItem="lSw-Ad-lb2" firstAttribute="width" secondItem="6TP-RH-dDz" secondAttribute="width" id="FNR-iO-VVH"/>
                             <constraint firstItem="lSw-Ad-lb2" firstAttribute="top" secondItem="6TP-RH-dDz" secondAttribute="bottom" id="L6h-fM-Tgv"/>
                             <constraint firstItem="6TP-RH-dDz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RH8-cm-8Bv"/>
                             <constraint firstItem="6TP-RH-dDz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W29-GB-VsH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6TP-RH-dDz" secondAttribute="trailing" constant="30" id="d0G-Zf-beG"/>
                             <constraint firstItem="lSw-Ad-lb2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i54-cc-02y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -105,24 +109,24 @@
             </objects>
             <point key="canvasLocation" x="50.724637681159422" y="20.758928571428569"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Custom Table View Controller-->
         <scene sceneID="sNC-zm-2wR">
             <objects>
-                <tableViewController id="Kfa-6X-kMV" customClass="TableViewController" customModule="VFLPractice" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="TableViewController" id="Kfa-6X-kMV" customClass="CustomTableViewController" customModule="VFLPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1nv-6v-v9y">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="508" id="4i5-wr-i6z" customClass="DemoCell" customModule="VFLPractice" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="508"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="460" id="4i5-wr-i6z" customClass="DemoCell" customModule="VFLPractice" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="460"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4i5-wr-i6z" id="As2-QF-XYU">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="507.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="459.66666666666669"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgD-Dh-Lby" userLabel="UpperForeground" customClass="AnimatableView" customModule="IBAnimatable">
-                                            <rect key="frame" x="16" y="19" width="288" height="60"/>
+                                            <rect key="frame" x="16" y="19" width="343" height="60"/>
                                             <color key="backgroundColor" red="0.1333333333" green="0.2901960784" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="60" id="Zk1-5w-CtL"/>
@@ -137,14 +141,14 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjl-Es-WGV" userLabel="LowerForeground" customClass="RotatedView" customModule="FoldingCell">
-                                            <rect key="frame" x="16" y="79" width="288" height="60"/>
+                                            <rect key="frame" x="16" y="79" width="343" height="60"/>
                                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="60" id="eSC-j3-fLU"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gWK-P8-jxO">
-                                            <rect key="frame" x="16" y="149" width="288" height="300"/>
+                                            <rect key="frame" x="16" y="149" width="343" height="300"/>
                                             <color key="backgroundColor" red="0.92549019610000005" green="0.18039215689999999" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="300" id="Qbz-iM-4KE"/>
@@ -165,13 +169,14 @@
                                 </tableViewCellContentView>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="backViewColor">
-                                        <color key="value" red="0.96862745098039216" green="0.93725490196078431" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.96862745100000003" green="0.93725490199999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="itemCount">
                                         <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <outlet property="UppergroundView" destination="qgD-Dh-Lby" id="xyZ-4m-Q11"/>
                                     <outlet property="containerView" destination="gWK-P8-jxO" id="Vh4-13-OpR"/>
                                     <outlet property="containerViewTop" destination="WoH-Aj-5uO" id="rrv-u2-wLx"/>
                                     <outlet property="foregroundView" destination="cjl-Es-WGV" id="Bi0-TH-BiY"/>
@@ -180,8 +185,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="Kfa-6X-kMV" id="OyB-9V-gM4"/>
-                            <outlet property="delegate" destination="Kfa-6X-kMV" id="ckM-6G-E7p"/>
+                            <outlet property="dataSource" destination="Kfa-6X-kMV" id="VKW-hh-6YM"/>
+                            <outlet property="delegate" destination="Kfa-6X-kMV" id="wsK-uy-7lK"/>
                         </connections>
                     </tableView>
                 </tableViewController>

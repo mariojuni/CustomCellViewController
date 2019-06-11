@@ -17,14 +17,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
      ///   myView.concaveEnds(depth: 10.0)
         
-       myView.concaveCornerUpper(depth: 10.0)
-       myView2.concaveCornerLower(depth: 10.0)
+     
  
        // myView.concave(cornerRadius: 10.0, corners: [.bottomLeft,.bottomRight])
     }
     
     override func viewDidLayoutSubviews() {
-        
+        myView.concaveCornerUpper(depth: 10.0)
+        myView2.concaveCornerLower(depth: 10.0)
     }
 }
 extension UIView {
@@ -53,6 +53,8 @@ extension UIView {
     
     func concaveCornerUpper(depth: CGFloat){
         let path = UIBezierPath()
+        
+        
         ///path.move(to: self.bounds.origin)
         path.move(to: CGPoint.init(x: self.bounds.minX , y: self.bounds.minY ))
         /// path.addArc(withCenter: CGPoint.init(x: self.bounds.minX, y: self.bounds.minY), radius: depth, startAngle: CGFloat.pi/2, endAngle: 0, clockwise: false)
@@ -68,7 +70,6 @@ extension UIView {
         self.layer.mask = mask
         self.layer.cornerRadius = depth
         self.clipsToBounds = true
-        
         self.layer.maskedCorners = [.layerMaxXMinYCorner,.layerMinXMinYCorner] /// Top Right , Top left
         self.layer.masksToBounds = false
     }

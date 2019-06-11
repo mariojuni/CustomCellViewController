@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2568112D3AEC69F870D8DC55 /* Pods_VFLPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDE6719F9302310394E6E63 /* Pods_VFLPracticeTests.framework */; };
 		9D48456E22A50BAD00D54F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D48456D22A50BAD00D54F20 /* AppDelegate.swift */; };
 		9D48457022A50BAD00D54F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D48456F22A50BAD00D54F20 /* ViewController.swift */; };
 		9D48457322A50BAD00D54F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D48457122A50BAD00D54F20 /* Main.storyboard */; };
 		9D48457522A50BAE00D54F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D48457422A50BAE00D54F20 /* Assets.xcassets */; };
 		9D48457822A50BAE00D54F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D48457622A50BAE00D54F20 /* LaunchScreen.storyboard */; };
 		9D48458322A50BAE00D54F20 /* VFLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D48458222A50BAE00D54F20 /* VFLPracticeTests.swift */; };
+		9D4845BA22AF4C5D00D54F20 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4845B922AF4C5D00D54F20 /* CustomTableViewController.swift */; };
+		9D4845BC22AF735900D54F20 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4845BB22AF735900D54F20 /* DemoCell.swift */; };
+		F71F1DEE7F9CBA52F56C64AA /* Pods_VFLPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD90B06E0C5C7D7853ED27E6 /* Pods_VFLPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0793561E0B2CA139D1041FF8 /* Pods-VFLPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFLPractice.debug.xcconfig"; path = "Target Support Files/Pods-VFLPractice/Pods-VFLPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		295ED10868456B5D8FDDA203 /* Pods-VFLPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFLPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-VFLPracticeTests/Pods-VFLPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		400CB848165CD9E857D336C4 /* Pods-VFLPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFLPractice.release.xcconfig"; path = "Target Support Files/Pods-VFLPractice/Pods-VFLPractice.release.xcconfig"; sourceTree = "<group>"; };
+		6DDE6719F9302310394E6E63 /* Pods_VFLPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VFLPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D48456A22A50BAC00D54F20 /* VFLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VFLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D48456D22A50BAD00D54F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D48456F22A50BAD00D54F20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		9D48457E22A50BAE00D54F20 /* VFLPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFLPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D48458222A50BAE00D54F20 /* VFLPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFLPracticeTests.swift; sourceTree = "<group>"; };
 		9D48458422A50BAE00D54F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4845B922AF4C5D00D54F20 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		9D4845BB22AF735900D54F20 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		C575D79B09EEF91E28A63F72 /* Pods-VFLPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFLPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-VFLPracticeTests/Pods-VFLPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD90B06E0C5C7D7853ED27E6 /* Pods_VFLPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VFLPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71F1DEE7F9CBA52F56C64AA /* Pods_VFLPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2568112D3AEC69F870D8DC55 /* Pods_VFLPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0682CE267F92FA25FE84FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD90B06E0C5C7D7853ED27E6 /* Pods_VFLPractice.framework */,
+				6DDE6719F9302310394E6E63 /* Pods_VFLPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63E1249FAA6D5E646BD24449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0793561E0B2CA139D1041FF8 /* Pods-VFLPractice.debug.xcconfig */,
+				400CB848165CD9E857D336C4 /* Pods-VFLPractice.release.xcconfig */,
+				295ED10868456B5D8FDDA203 /* Pods-VFLPracticeTests.debug.xcconfig */,
+				C575D79B09EEF91E28A63F72 /* Pods-VFLPracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D48456122A50BAC00D54F20 = {
 			isa = PBXGroup;
 			children = (
 				9D48456C22A50BAC00D54F20 /* VFLPractice */,
 				9D48458122A50BAE00D54F20 /* VFLPracticeTests */,
 				9D48456B22A50BAC00D54F20 /* Products */,
+				63E1249FAA6D5E646BD24449 /* Pods */,
+				2C0682CE267F92FA25FE84FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +115,8 @@
 			children = (
 				9D48456D22A50BAD00D54F20 /* AppDelegate.swift */,
 				9D48456F22A50BAD00D54F20 /* ViewController.swift */,
+				9D4845B922AF4C5D00D54F20 /* CustomTableViewController.swift */,
+				9D4845BB22AF735900D54F20 /* DemoCell.swift */,
 				9D48457122A50BAD00D54F20 /* Main.storyboard */,
 				9D48457422A50BAE00D54F20 /* Assets.xcassets */,
 				9D48457622A50BAE00D54F20 /* LaunchScreen.storyboard */,
@@ -103,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D48458722A50BAE00D54F20 /* Build configuration list for PBXNativeTarget "VFLPractice" */;
 			buildPhases = (
+				EFA0BF8E12356F1EDFA7CDF9 /* [CP] Check Pods Manifest.lock */,
 				9D48456622A50BAC00D54F20 /* Sources */,
 				9D48456722A50BAC00D54F20 /* Frameworks */,
 				9D48456822A50BAC00D54F20 /* Resources */,
+				BA61555B5AD8CC17C44E3F5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D48458A22A50BAE00D54F20 /* Build configuration list for PBXNativeTarget "VFLPracticeTests" */;
 			buildPhases = (
+				01C04E6F1C4AB284E85C30E7 /* [CP] Check Pods Manifest.lock */,
 				9D48457A22A50BAE00D54F20 /* Sources */,
 				9D48457B22A50BAE00D54F20 /* Frameworks */,
 				9D48457C22A50BAE00D54F20 /* Resources */,
@@ -192,12 +233,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C04E6F1C4AB284E85C30E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VFLPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA61555B5AD8CC17C44E3F5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VFLPractice/Pods-VFLPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VFLPractice/Pods-VFLPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA0BF8E12356F1EDFA7CDF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VFLPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D48456622A50BAC00D54F20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D48457022A50BAD00D54F20 /* ViewController.swift in Sources */,
+				9D4845BA22AF4C5D00D54F20 /* CustomTableViewController.swift in Sources */,
+				9D4845BC22AF735900D54F20 /* DemoCell.swift in Sources */,
 				9D48456E22A50BAD00D54F20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +472,7 @@
 		};
 		9D48458822A50BAE00D54F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0793561E0B2CA139D1041FF8 /* Pods-VFLPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +491,7 @@
 		};
 		9D48458922A50BAE00D54F20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400CB848165CD9E857D336C4 /* Pods-VFLPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +510,7 @@
 		};
 		9D48458B22A50BAE00D54F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295ED10868456B5D8FDDA203 /* Pods-VFLPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +532,7 @@
 		};
 		9D48458C22A50BAE00D54F20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C575D79B09EEF91E28A63F72 /* Pods-VFLPracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

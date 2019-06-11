@@ -1,0 +1,6 @@
+framework module Pods_VFLPractice {
+  umbrella header "Pods-VFLPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

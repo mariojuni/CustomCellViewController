@@ -1,0 +1,20 @@
+PODS:
+  - FoldingCell (5.0.1)
+  - IBAnimatable (5.2.1)
+
+DEPENDENCIES:
+  - FoldingCell
+  - IBAnimatable
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FoldingCell
+    - IBAnimatable
+
+SPEC CHECKSUMS:
+  FoldingCell: 9197b915a415af9e52a857964066797af6a51c2b
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
+
+PODFILE CHECKSUM: 25e01d3286179728ffdf48c00b7ce327e6623556
+
+COCOAPODS: 1.6.1

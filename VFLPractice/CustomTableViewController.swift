@@ -8,7 +8,7 @@
 
 import UIKit
 import FoldingCell
-class TableViewController: UITableViewController {
+class CustomTableViewController: UITableViewController {
 
     enum Const {
         static let closeCellHeight: CGFloat = 179
@@ -20,7 +20,12 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
+      setup()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+      
     }
 
     // MARK: Helpers
@@ -45,14 +50,11 @@ class TableViewController: UITableViewController {
             self?.tableView.reloadData()
         })
     }
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+ 
 }
 // MARK: - TableView
 
-extension TableViewController {
+extension CustomTableViewController {
     
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
         return 10
@@ -70,6 +72,7 @@ extension TableViewController {
         } else {
             cell.unfold(true, animated: false, completion: nil)
         }
+       
         
         cell.number = indexPath.row
     }
